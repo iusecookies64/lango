@@ -1,5 +1,5 @@
 # lango
-##### Setup
+#### Setup
 * Clone the repository locally.
 * run npm install in both the client and the server directories.
 * To run react dev environment in client directory run "npm run dev" command.
