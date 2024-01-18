@@ -1,0 +1,46 @@
+.playground {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.progress-details {
+  padding: 1rem;
+}
+
+.progress-details > div {
+  margin: 1rem 0;
+}
+
+.controls {
+  display: flex;
+}
+
+.play-button {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px #143109;
+  color: #143109;
+  text-decoration: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  transform: scale(1.05);
+}
+
+.play-button:active {
+  transform: scale(0.95);
+}

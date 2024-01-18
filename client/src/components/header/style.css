@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  height: 10%;
+  max-height: 4rem;
+  width: 100%;
+  display: flex;
+  background-color: #fdce7f;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.back-button {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.back-button i {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 900;
+}

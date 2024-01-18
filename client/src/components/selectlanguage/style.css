@@ -1,0 +1,12 @@
+.select-language {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 5rem;
+  padding: 1rem;
+}
+
+.select-language span {
+  margin-right: 1rem;
+}

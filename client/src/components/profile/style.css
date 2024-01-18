@@ -1,0 +1,33 @@
+.login-button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:active {
+  transform: scale(0.97);
+}
+
+.form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: rgba(0, 0, 0, 0.103);
+  backdrop-filter: blur(5px);
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}

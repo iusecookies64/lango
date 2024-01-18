@@ -1,0 +1,69 @@
+.form {
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+}
+
+.form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 120%;
+  padding-bottom: 120%;
+  border-radius: 50%;
+  background-color: #f56960;
+  z-index: 0;
+}
+
+.form > div {
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.form > div > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+/* .form > div > input::active {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+} */
+
+form > .error {
+  font-size: 0.75rem;
+  max-width: 30rem;
+  justify-content: flex-end;
+  color: red;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+p {
+  z-index: 1;
+}
