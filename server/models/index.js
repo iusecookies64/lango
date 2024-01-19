@@ -3,9 +3,6 @@ const fs = require("fs");
 
 // Connect to MongoDB
 mongoose.connect(process.env.DATABASE_URL);
-// mongoose.connect(
-//   "mongodb+srv://traghav64:TC1ZscRft4NKATrN@cluster.xsbvklr.mongodb.net/languagegame?retryWrites=true&w=majority"
-// );
 
 // user information
 const userSchema = new mongoose.Schema({
